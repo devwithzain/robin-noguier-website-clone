@@ -1,6 +1,6 @@
 import { TvideoProps } from "@/types";
 
-export default function Video({ videoSrc, text }: TvideoProps) {
+export default function Video({ videoSrc, text, className }: TvideoProps) {
 	return (
 		<div className="w-full flex flex-col gap-6 padding-x">
 			<video
@@ -11,7 +11,8 @@ export default function Video({ videoSrc, text }: TvideoProps) {
 				className="w-full object-contain"
 			/>
 			<div className="w-full flex items-center justify-center">
-				<p className="text-sm font-silkaRegular text-black leading-tight tracking-wide">
+				<p
+					className={`text-sm font-silkaRegular leading-tight tracking-wide ${className}`}>
 					{text}
 				</p>
 			</div>

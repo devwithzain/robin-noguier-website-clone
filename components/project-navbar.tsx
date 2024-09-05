@@ -16,9 +16,11 @@ export default function ProjectNavbar() {
 				</Link>
 			</div>
 			<div>
-				<h1 className="text-[16px] leading-tight tracking-widest uppercase font-silkaRegular text-black font-bold">
+				<Link
+					href="/about"
+					className="text-[16px] leading-tight tracking-widest uppercase font-silkaRegular text-black font-bold">
 					about
-				</h1>
+				</Link>
 			</div>
 		</div>
 	);

@@ -6,6 +6,11 @@ body::-webkit-scrollbar {
 	width: 0%;
 }
 
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
 @font-face {
 	src: url("../font/ekselldisplay-large-webfont.woff2");
 	font-family: ekselldisplayLarge;

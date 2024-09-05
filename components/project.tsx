@@ -46,9 +46,16 @@ export default function Project() {
 								</Link>
 							</div>
 							<div
-								className="mb-16 w-fit h-[200px] rounded-md border-[5px]"
+								className="mb-16 w-fit h-[200px] rounded-md border-[5px] overflow-hidden"
 								style={{ borderColor: item.headingColor }}>
-								<video
+								<motion.video
+									animate={{ scale: [1, 1.1, 1] }}
+									transition={{
+										duration: 2,
+										ease: "easeInOut",
+										repeat: Infinity,
+										repeatType: "mirror",
+									}}
 									muted
 									autoPlay
 									loop
