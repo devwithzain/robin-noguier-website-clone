@@ -1,8 +1,8 @@
 "use client";
 import { useEffect } from "react";
-import { HomePage } from "@/container";
+import { AboutFun, HeroFun, MainFeedFun, OnBoardingFun } from "@/container";
 
-export default function App() {
+export default function Fun() {
 	useEffect(() => {
 		(async () => {
 			const LocomotiveScroll = (await import("locomotive-scroll")).default;
@@ -11,7 +11,10 @@ export default function App() {
 	}, []);
 	return (
 		<>
-			<HomePage />
+			<HeroFun />
+			<AboutFun />
+			<OnBoardingFun />
+			<MainFeedFun />
 		</>
 	);
 }
