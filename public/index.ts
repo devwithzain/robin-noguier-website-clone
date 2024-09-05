@@ -1,0 +1,14 @@
+export { default as project1 } from "./project-1.avif";
+export { default as project2 } from "./project-2.avif";
+export { default as project3 } from "./project-3.avif";
+export { default as project4 } from "./project-4.avif";
+export { default as project5 } from "./project-5.avif";
+export { default as project6 } from "./project-6.avif";
+export { default as project7 } from "./project-7.avif";
+export { default as project8 } from "./project-8.avif";
+export { default as project9 } from "./project-9.avif";
+export { default as protopieLogo } from "./protopieLogo.avif";
+export { default as take1 } from "./take1.avif";
+export { default as take2 } from "./take2.avif";
+export { default as take3 } from "./take3.avif";
+export { default as take4 } from "./take4.avif";
