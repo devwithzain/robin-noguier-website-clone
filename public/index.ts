@@ -16,6 +16,7 @@ export { default as take4 } from "./take4.avif";
 export { default as signupFlow1 } from "./signupFlow1.avif";
 export { default as signupFlow2 } from "./signupFlow2.avif";
 export { default as signupFlow3 } from "./signupFlow3.avif";
+export { default as aboutImg } from "./aboutImg.avif";
 export { default as fun1 } from "./fun1.avif";
 export { default as fun2 } from "./fun2.avif";
 export { default as fun3 } from "./fun3.avif";
@@ -26,3 +27,8 @@ export { default as client1 } from "./client1.avif";
 export { default as client2 } from "./client2.avif";
 export { default as inbox } from "./inbox.avif";
 export { default as chat } from "./chat.avif";
+
+export { default as twitter } from "./twitter-hover-small.svg";
+export { default as dribbble } from "./dribbble-hover-small.svg";
+export { default as linkedin } from "./linkedin.svg";
+export { default as insta } from "./insta-small.svg";
