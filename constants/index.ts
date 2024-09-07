@@ -1,4 +1,4 @@
-import { project1, project2, project3, project4, project5, project6, project7, project8, project9, } from "@/public";
+import { airbnb, article1, article2, awwwards, benz, chanel, CSS, dior, facebook, fwa, goole, interview1, interview2, interview3, lonely, oculus, project1, project2, project3, project4, project5, project6, project7, project8, project9, redbull, robin1, robin2, robin3, robin4, robin5, robin6, robinExperneto, robinR, robinRent, robinUeno, robinUN, talk1, uber, varizon, waze, webbys, writing1, writing2, } from "@/public";
 
 export const projectItems = [
    {
@@ -108,5 +108,391 @@ export const projectItems = [
       paraColor: "#fff",
       bgColor: "#153136",
       linkText: "open case study",
+   },
+];
+
+
+export const skillsData = [
+   {
+      id: 1,
+      title: "Boxing"
+   },
+   {
+      id: 2,
+      title: "Working next to a developer"
+   },
+   {
+      id: 3,
+      title: "Bubble Tea"
+   },
+   {
+      id: 4,
+      title: "Launch day"
+   },
+   {
+      id: 5,
+      title: "Escape Games"
+   },
+   {
+      id: 6,
+      title: "Easing curves"
+   },
+   {
+      id: 7,
+      title: "Mario"
+   },
+   {
+      id: 8,
+      title: "Even spacing"
+   },
+   {
+      id: 9,
+      title: "Acai Bowl"
+   },
+   {
+      id: 10,
+      title: "Clean inbox"
+   },
+   {
+      id: 11,
+      title: "Soccer"
+   },
+   {
+      id: 12,
+      title: "Team - driven environment"
+   },
+];
+
+
+export const partnerClient = [
+   {
+      id: 1,
+      src: goole,
+      color: "#B33E32",
+      hoverColor: "#E04D3F"
+   },
+   {
+      id: 2,
+      src: facebook,
+      color: "#294DCC",
+      hoverColor: "#3360FF"
+   },
+   {
+      id: 3,
+      src: airbnb,
+      color: "#CA3946",
+      hoverColor: "#FF4858"
+   },
+   {
+      id: 4,
+      src: uber,
+      color: "#1A1A1A",
+      hoverColor: "#000000"
+   },
+   {
+      id: 5,
+      src: redbull,
+      color: "#B5163E",
+      hoverColor: "#E21C4D"
+   },
+   {
+      id: 6,
+      src: lonely,
+      color: "#306399",
+      hoverColor: "#18518D"
+   },
+   {
+      id: 7,
+      src: benz,
+      color: "#1A1A1A",
+      hoverColor: "#030303"
+   },
+   {
+      id: 8,
+      src: chanel,
+      color: "#1A1A1A",
+      hoverColor: "#000000"
+   },
+   {
+      id: 9,
+      src: dior,
+      color: "#4A4A4A",
+      hoverColor: "#363636"
+   },
+   {
+      id: 10,
+      src: oculus,
+      color: "#333537",
+      hoverColor: "#1C1E20"
+   },
+   {
+      id: 11,
+      src: waze,
+      color: "#08AD7A",
+      hoverColor: "#0AD898"
+   },
+   {
+      id: 12,
+      src: varizon,
+      color: "#CA1A20",
+      hoverColor: "#FC2028"
+   },
+];
+
+export const myWorkItems = [
+   {
+      id: 1,
+      col1: [
+         {
+            id: 1,
+            title: "2019 - Present",
+            heading: "Freelance Designer",
+            country: "Around the World 🌎️",
+            src1: robin1,
+            src2: robinR,
+         },
+         {
+            id: 2,
+            title: "2018 - 2019",
+            heading: "Esperanto",
+            country: "16 Countries 🌎️",
+            src1: robin2,
+            src2: robinExperneto,
+         },
+         {
+            id: 3,
+            title: "july 2016 - 2018",
+            heading: "Ueno",
+            country: "San Francisco, USA 🇺🇸",
+            src1: robin3,
+            src2: robinUeno,
+         },
+      ]
+   }, {
+      id: 2,
+      col2: [
+         {
+            id: 4,
+            title: "JAN 2016 - JUNE 2016",
+            heading: "Ultranoir",
+            country: "Paris, France 🇫🇷",
+            src1: robin4,
+            src2: robinUN,
+         },
+         {
+            id: 5,
+            title: "2015 - 2016",
+            heading: "Ueno",
+            country: "San Francisco, USA 🇺🇸",
+            src1: robin5,
+            src2: robinUeno,
+         },
+         {
+            id: 6,
+            title: "2014 - 2015",
+            heading: "Rentez - vous",
+            country: "London, UK 🇬🇧",
+            src1: robin6,
+            src2: robinRent,
+         },
+      ]
+   }
+];
+
+export const talkInterItems = [
+   {
+      id: 1,
+      src: talk1,
+      title: "Talk",
+      para: "Awwwards, Amsterdam",
+      href: "watch on youtube",
+      color: "#583761",
+      hoverColor: "#A554BB"
+   },
+   {
+      id: 2,
+      src: article1,
+      title: "Article",
+      para: "Designer should bring the chocolate",
+      href: "watch on youtube",
+      color: "#65522C",
+      hoverColor: "#C39437"
+   },
+   {
+      id: 3,
+      src: article2,
+      title: "Article",
+      para: "Everyone starts from the bottom",
+      href: "watch on youtube",
+      color: "#222222",
+      hoverColor: "#1F1F1F"
+   },
+   {
+      id: 4,
+      src: writing1,
+      title: "writing",
+      para: "it's gonna be a bumpy ride",
+      href: "watch on youtube",
+      color: "#68685C",
+      hoverColor: "#9C9C8A"
+   },
+   {
+      id: 5,
+      src: interview1,
+      title: "interview",
+      para: "Interface Lovers",
+      href: "watch on youtube",
+      color: "#49575C",
+      hoverColor: "#7FA1AD"
+   },
+   {
+      id: 6,
+      src: interview2,
+      title: "interview",
+      para: "Command Z Podcast",
+      href: "watch on youtube",
+      color: "#54332C",
+      hoverColor: "#9C4A39"
+   },
+   {
+      id: 7,
+      src: writing2,
+      title: "writing",
+      para: "Esperanto Interviews",
+      href: "watch on youtube",
+      color: "#595757",
+      hoverColor: "#A8A5A3"
+   },
+   {
+      id: 8,
+      src: interview3,
+      title: "interview",
+      para: "CSSDA",
+      href: "watch on youtube",
+      color: "#45223E",
+      hoverColor: "#771E65"
+   },
+];
+
+export const awwwardsItems = [
+   {
+      id: 1,
+      src: fwa,
+      links: [
+         {
+            id: 1,
+            title: "site of the day",
+            para: "Portfolio 2020",
+            href: "/"
+         },
+         {
+            id: 2,
+            title: "fwa of the day",
+            para: "Esperanto",
+            href: "/"
+         },
+         {
+            id: 3,
+            title: "fwa of the day",
+            para: "Elena Iv-Skaya",
+            href: "/"
+         }
+      ]
+   },
+   {
+      id: 2,
+      src: awwwards,
+      links: [
+         {
+            id: 1,
+            title: "site of the day",
+            para: "Portfolio 2020",
+            href: "/"
+         },
+         {
+            id: 2,
+            title: "site of the day",
+            para: "Esperanto",
+            href: "/"
+         },
+         {
+            id: 3,
+            title: "Independent 2019 Nominee",
+            para: "Freelance",
+            href: "/"
+         },
+         {
+            id: 4,
+            title: "fwa of the day",
+            para: "Elena Iv-Skaya",
+            href: "/"
+         },
+         {
+            id: 5,
+            title: "site of the day",
+            para: "Ueno.co",
+            href: "/"
+         },
+         {
+            id: 6,
+            title: "site of the day",
+            para: "Eagle Films",
+            href: "/"
+         },
+      ]
+   },
+   {
+      id: 3,
+      src: CSS,
+      links: [
+         {
+            id: 1,
+            title: "Independent 2019 Nominee",
+            para: "Freelance",
+            href: "/"
+         },
+         {
+            id: 2,
+            title: "website of the day",
+            para: "Esperanto",
+            href: "/"
+         },
+         {
+            id: 3,
+            title: "website of the day",
+            para: "Elena Iv-Skaya",
+            href: "/"
+         },
+         {
+            id: 4,
+            title: "website of the day",
+            para: "Eagle Films",
+            href: "/"
+         },
+         {
+            id: 5,
+            title: "website of the day",
+            para: "Portfolio 2015",
+            href: "/"
+         },
+      ]
+   },
+   {
+      id: 4,
+      src: webbys,
+      links: [
+         {
+            id: 1,
+            title: "People's voice winner",
+            para: "Lonely Planet",
+            href: "/"
+         },
+         {
+            id: 2,
+            title: "Nominee",
+            para: "Ueno.co",
+            href: "/"
+         },
+      ]
    },
 ];

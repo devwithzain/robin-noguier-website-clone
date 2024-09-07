@@ -19,3 +19,8 @@ export type TclienReviewProps = {
    className: string;
    img: StaticImageData;
 };
+
+export type TlogoMarqueeProps = {
+   children: React.ReactNode;
+   baseVelocity: number;
+};
