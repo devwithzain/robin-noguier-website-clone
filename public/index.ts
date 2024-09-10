@@ -70,3 +70,41 @@ export { default as awwwards } from "./awwwards.svg";
 export { default as fwa } from "./fwa.svg";
 export { default as webbys } from "./webbys.svg";
 export { default as robinEmoji } from "./robinEmoji.gif";
+
+// esperanto page content
+export { default as inter1 } from "./inter1.avif";
+export { default as inter2 } from "./inter2.avif";
+export { default as inter3 } from "./inter3.avif";
+export { default as inter4 } from "./inter4.avif";
+export { default as inter5 } from "./inter5.avif";
+export { default as inter6 } from "./inter6.avif";
+export { default as inter7 } from "./inter7.jpg";
+export { default as inter8 } from "./inter8.avif";
+export { default as inter9 } from "./inter9.avif";
+export { default as inter10 } from "./inter10.avif";
+export { default as inter11 } from "./inter11.avif";
+export { default as inter12 } from "./inter12.avif";
+export { default as inter13 } from "./inter13.avif";
+export { default as inter14 } from "./inter14.avif";
+export { default as inter15 } from "./inter15.avif";
+export { default as inter16 } from "./inter16.avif";
+
+export { default as esperanto2 } from "./esperanto2.avif";
+export { default as esperanto3 } from "./esperanto3.avif";
+export { default as esperanto4 } from "./esperanto4.avif";
+
+export { default as leaner1 } from "./leaner1.avif";
+export { default as leaner2 } from "./leaner2.avif";
+export { default as leaner3 } from "./leaner3.avif";
+export { default as leaner4 } from "./leaner4.avif";
+export { default as leaner5 } from "./leaner5.avif";
+export { default as leaner6 } from "./leaner6.avif";
+export { default as leaner7 } from "./leaner7.avif";
+export { default as leaner8 } from "./leaner8.avif";
+
+export { default as esperanto5 } from "./esperanto5.avif";
+export { default as esperanto16 } from "./esperanto16.avif";
+export { default as esperanto17 } from "./esperanto17.avif";
+export { default as esperanto18 } from "./esperanto18.avif";
+export { default as esperanto19 } from "./esperanto19.avif";
+export { default as esperanto20 } from "./esperanto20.avif";

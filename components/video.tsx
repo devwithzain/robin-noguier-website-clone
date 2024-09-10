@@ -2,7 +2,7 @@ import { TvideoProps } from "@/types";
 
 export default function Video({ videoSrc, text, className }: TvideoProps) {
 	return (
-		<div className="w-full flex flex-col gap-6 padding-x">
+		<div className="w-full flex flex-col padding-x">
 			<video
 				muted
 				autoPlay
@@ -12,7 +12,7 @@ export default function Video({ videoSrc, text, className }: TvideoProps) {
 			/>
 			<div className="w-full flex items-center justify-center">
 				<p
-					className={`text-sm font-silkaRegular leading-tight tracking-wide ${className}`}>
+					className={`text-sm font-silkaRegular leading-tight tracking-wide py-5 ${className}`}>
 					{text}
 				</p>
 			</div>

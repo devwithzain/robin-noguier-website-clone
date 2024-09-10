@@ -38,10 +38,10 @@ export default function MainFeed() {
 
 	return (
 		<>
-			<div className="w-full flex items-center justify-center py-20 padding-x">
+			<div className="w-full flex items-center justify-center py-20">
 				<div className="w-full flex flex-col gap-20">
 					<div className="w-full flex items-center justify-center">
-						<div className="w-[75%] flex flex-col gap-5">
+						<div className="w-[70%] flex flex-col gap-5">
 							<h1 className="text-[18px] font-silkaBold font-bold text-black leading-tight tracking-wide uppercase">
 								02
 							</h1>
@@ -101,7 +101,7 @@ export default function MainFeed() {
 				para="	A few key principles were crucial to explain well on the first
 						experience."
 			/>
-			<div className="w-full flex flex-col py-20 gap-10 padding-x">
+			<div className="w-full flex flex-col py-20 gap-10 ">
 				<div className="w-full flex items-center justify-between gap-5">
 					{[take1, take2, take3, take4].map((image, index) => (
 						<Image
@@ -181,7 +181,7 @@ export default function MainFeed() {
 				para="Robin is an absolute master at his craft. He generates world-class work at a breakneck pace. I love working with him. I worked with him almost entirely remotely from different continents and the work pace and quality were second to none. Can't wait to work together again."
 			/>
 			<div className="w-full flex items-center justify-center">
-				<div className="w-[75%] flex flex-col gap-5">
+				<div className="w-[70%] flex flex-col gap-5">
 					<h1 className="text-[18px] font-silkaBold font-bold text-black leading-tight tracking-wide uppercase">
 						03
 					</h1>
@@ -270,8 +270,8 @@ export default function MainFeed() {
 				title="Never miss a chance to be Fun!"
 				para="The first video is the spotlight, the user will appear in the feed with borders and his funmoji jumping around. The second video is when there is no one else around. The third video shows why is it important to enable notifications."
 			/>
-			<div className="w-full flex flex-col items-center justify-center py-20 gap-5 padding-x">
-				<div className="w-[75%] flex items-center justify-between gap-5">
+			<div className="w-full flex flex-col items-center justify-center py-20 gap-5">
+				<div className="w-[70%] flex items-center justify-between gap-5">
 					<video
 						muted
 						autoPlay
@@ -306,7 +306,7 @@ export default function MainFeed() {
 				para="I’ve worked with hundreds of designers in my career and Robin is at the top. I admire him."
 			/>
 			<div className="w-full flex items-center justify-center">
-				<div className="w-[75%] flex flex-col gap-5">
+				<div className="w-[70%] flex flex-col gap-5">
 					<h1 className="text-[18px] font-silkaBold font-bold text-black leading-tight tracking-wide uppercase">
 						04
 					</h1>
@@ -372,7 +372,7 @@ export default function MainFeed() {
 				text="Profile vertical scroll"
 			/>
 			<div className="w-full flex items-center justify-center mt-20">
-				<div className="w-[75%] flex flex-col gap-5">
+				<div className="w-[70%] flex flex-col gap-5">
 					<h1 className="text-[18px] font-silkaBold font-bold text-black leading-tight tracking-wide uppercase">
 						05
 					</h1>
@@ -386,8 +386,8 @@ export default function MainFeed() {
 				title="The reason we're all here for: chat! 💬"
 				para="All the good stuff and more! For example, we implemented a harassment blocker: after 3 messages are sent without an answer, you can't send another one before the person replies (Screen 3)"
 			/>
-			<div className="w-full flex flex-col items-center justify-center py-20 gap-5 padding-x">
-				<div className="w-[75%] flex items-center justify-between gap-5">
+			<div className="w-full flex flex-col items-center justify-center py-20 gap-5">
+				<div className="w-[70%] flex items-center justify-between gap-5">
 					<Image
 						src={inbox}
 						alt="inbox-img"
@@ -421,7 +421,7 @@ export default function MainFeed() {
 				img={client2}
 				para='"NEVER EVER lose your openness to explore new ideas. You are nailing so many aspects of what it takes to build a great product. I consider it an honor to work with you" (Via Text)'
 			/>
-			<div className="w-full bg-black padding-x">
+			<div className="w-full bg-black ">
 				<div className="w-full flex items-center justify-center">
 					<div className="w-[70%] flex flex-col gap-5">
 						<h1 className="text-[18px] font-silkaBold font-bold text-white leading-tight tracking-wide uppercase">
@@ -627,7 +627,7 @@ export default function MainFeed() {
 					</div>
 				</div>
 				<div className="w-full flex items-center justify-center cursor-pointer absolute">
-					<Link href="/project/exprento">
+					<Link href="/project/esperanto">
 						<motion.img
 							src="/project-2.avif"
 							alt="project-img"

@@ -21,25 +21,27 @@ export default function HeroFun() {
 
 	return (
 		<>
-			<ProjectNavbar className="text-black" />
+			<ProjectNavbar />
 			<div
-				className="w-full h-screen bg-[#D5DEDD] padding-x relative -z-10 overflow-hidden"
+				className="w-full h-screen bg-[#FE3448] relative -z-10 overflow-hidden"
 				data-scroll
 				data-scroll-speed="-1"
 				ref={container}>
 				<div className="w-full h-full items-center mt-20 flex">
-					<div className="w-full flex flex-col items-center gap-16 py-10">
-						<div className="flex gap-32 items-center">
-							<motion.div style={{ y: mq }}>
-								<h1 className="leading-[1] tracking-wide text-[180px] font-ekselldisplayLarge font-bold">
-									Fun
+					<div className="w-full flex flex-col items-center gap-10">
+						<div className="flex items-center">
+							<motion.div
+								style={{ y: mq }}
+								className="absolute left-20 translate-y-1/2 z-50">
+								<h1 className="leading-[1] text-[#FFFFFF] tracking-wide text-[180px] font-ekselldisplayLarge font-bold">
+									Esperanto
 								</h1>
 							</motion.div>
 							<motion.div
 								style={{ rotate: rt, y: iy, scale: sc }}
-								className="overflow-hidden">
+								className="overflow-hidden relative left-48">
 								<motion.img
-									src="/project-1.avif"
+									src="/project-2.avif"
 									alt="fun-image"
 									className="w-[70%] object-cover"
 									style={{ scale: st }}
@@ -48,11 +50,11 @@ export default function HeroFun() {
 						</div>
 						<div className="w-full flex items-center justify-center">
 							<motion.div
-								className="flex items-center justify-center w-16 cursor-pointer h-16 rounded-full bg-black p-3 group"
+								className="flex items-center justify-center w-16 cursor-pointer h-16 rounded-full bg-white p-3 group"
 								style={{ y: ug }}>
 								<FaArrowDownLong
 									size={20}
-									className="font-normal group-hover:translate-y-1 duration-300 ease-in-out text-white"
+									className="font-normal group-hover:translate-y-1 duration-300 ease-in-out text-[#FE3448]"
 								/>
 							</motion.div>
 						</div>

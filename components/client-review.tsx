@@ -10,7 +10,7 @@ export default function ClientReview({
 }: TclienReviewProps) {
 	return (
 		<div
-			className={`w-full flex items-center justify-center py-20 ${className} padding-x`}>
+			className={`w-full flex items-center justify-center py-20 ${className}`}>
 			<div className="w-[70%] flex flex-col gap-10">
 				<div className="flex items-center gap-10">
 					<div>

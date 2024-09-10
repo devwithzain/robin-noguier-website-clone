@@ -1,8 +1,8 @@
 "use client";
 import { useEffect } from "react";
-import { AboutFun, HeroFun, MainFeedFun } from "@/container";
+import { AboutEsperanto, HeroEsperanto, MainFeedEsperanto } from "@/container";
 
-export default function Fun() {
+export default function Esperanto() {
 	useEffect(() => {
 		(async () => {
 			const LocomotiveScroll = (await import("locomotive-scroll")).default;
@@ -11,9 +11,9 @@ export default function Fun() {
 	}, []);
 	return (
 		<>
-			<HeroFun />
-			<AboutFun />
-			<MainFeedFun />
+			<HeroEsperanto />
+			<AboutEsperanto />
+			<MainFeedEsperanto />
 		</>
 	);
 }

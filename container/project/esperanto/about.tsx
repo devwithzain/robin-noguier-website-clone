@@ -3,7 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function About() {
 	return (
-		<div className="w-full h-screen bg-white z-50 flex items-center justify-center">
+		<div className="w-full min-h-screen bg-white z-50 flex items-center justify-center">
 			<div className="w-[70%] h-full flex items-center justify-center gap-5">
 				<div className="w-full flex flex-col gap-16">
 					<div className="flex flex-col gap-3">
@@ -11,24 +11,27 @@ export default function About() {
 							About the project
 						</h1>
 						<h1 className="text-[100px] font-ekselldisplaySmall font-medium text-black leading-tight tracking-tight">
-							We take fun seriously
+							Traveling the world to shine <br /> a light on designers
 						</h1>
 					</div>
 					<div className="w-full flex justify-between items-center">
 						<div className="w-[70%]">
 							<p className="text-[20px] font-silkaRegular text-black leading-normal font-medium tracking-wide">
-								When Brian Norgard (Ex-CPO at Tinder) and Farb Nivi (Ex-CEO at
-								Coinmine) reached out to me, I knew this would be the kind of
-								project I take on: challenging, new, and, of course, fun. The
-								initial pitch was simple: let&apos;s build a video-only dating
-								app (Tinder meets TikTok). Our collaboration was nothing like I
-								had ever experienced before. They pushed me hard to explore
-								uncharted paths that usually led to a better solution to the
-								problem we were trying to solve. This remains one of the best
-								projects I&apos;ve been lucky enough to participate in.
-								I&apos;ve learned a lot, experienced a lot, failed a lot, and
-								had some of the best product design thinking with Farb and
-								Brian. 10/10 would recommend it 😄
+								In January 2018, I left my job to travel around the world to
+								discover new talents. In every country I visited over the next
+								12 months, I arranged to meet, interviewed and photograph one
+								person working in the creative field. My goal was to meet
+								people, discover talents and design industries that are
+								sometimes underrepresented, and show that everyone has an
+								interesting story to tell, no matter when they come from. I
+								asked them about their story, their process and the industry
+								they are working in. I did the transcript of those interviews in
+								order to create a website containing all those articles. To
+								build a side project, it’s essential to underestimate the amount
+								of work required. It took me more than two years to do this
+								project and I don’t regret any seconds I put into it. There is a
+								lot of countries out there I haven’t been to yet so Esperanto
+								will forever be a work in progress.
 							</p>
 						</div>
 						<div className="w-fit">
@@ -39,13 +42,16 @@ export default function About() {
 									</h1>
 									<div className="flex flex-col gap-2">
 										<p className="text-[18px] font-silkaRegular font-bold text-black/50 leading-tight tracking-wide uppercase">
-											User Experience
+											Design
 										</p>
 										<p className="text-[18px] font-silkaRegular font-bold text-black/50 leading-tight tracking-wide uppercase">
-											Visual Design
+											Interviews
 										</p>
 										<p className="text-[18px] font-silkaRegular font-bold text-black/50 leading-tight tracking-wide uppercase">
-											Prototyping
+											Copywriting
+										</p>
+										<p className="text-[18px] font-silkaRegular font-bold text-black/50 leading-tight tracking-wide uppercase">
+											Photography
 										</p>
 									</div>
 								</div>
@@ -55,10 +61,7 @@ export default function About() {
 									</h1>
 									<div className="flex flex-col gap-2">
 										<p className="text-[18px] font-silkaRegular font-bold text-black/50 leading-tight tracking-wide uppercase">
-											Brian Norgard
-										</p>
-										<p className="text-[18px] font-silkaRegular font-bold text-black/50 leading-tight tracking-wide uppercase">
-											Farb Nivi
+											Self-Initiated
 										</p>
 									</div>
 								</div>
@@ -68,7 +71,7 @@ export default function About() {
 									</h1>
 									<div className="flex flex-col gap-2">
 										<p className="text-[18px] font-silkaRegular font-bold text-black/50 leading-tight tracking-wide uppercase">
-											May 2021 - October 2022
+											2018 - Year Long Project
 										</p>
 									</div>
 								</div>
@@ -77,7 +80,7 @@ export default function About() {
 					</div>
 					<Link
 						className="w-fit flex items-center gap-4 group"
-						href="https://cloud.protopie.io/p/8874a89dd394c045af71d500">
+						href="/">
 						<p className="leading-tight tracking-wide text-[16px] font-silkaRegular font-bold uppercase">
 							try it
 						</p>

@@ -8,3 +8,4 @@ export { default as Skills } from './skills';
 export { default as PartnerClient } from './partnerClient';
 export { default as Interviews } from './interviews';
 export { default as Awards } from './awards';
+export { default as ParallaxImg } from './parallaxImg';

@@ -1,4 +1,4 @@
-import { airbnb, article1, article2, awwwards, benz, chanel, CSS, dior, facebook, fwa, goole, interview1, interview2, interview3, lonely, oculus, project1, project2, project3, project4, project5, project6, project7, project8, project9, redbull, robin1, robin2, robin3, robin4, robin5, robin6, robinExperneto, robinR, robinRent, robinUeno, robinUN, talk1, uber, varizon, waze, webbys, writing1, writing2, } from "@/public";
+import { airbnb, article1, article2, awwwards, benz, chanel, CSS, dior, facebook, fwa, goole, inter1, inter10, inter11, inter12, inter13, inter14, inter15, inter16, inter2, inter3, inter4, inter5, inter6, inter7, inter8, inter9, interview1, interview2, interview3, leaner1, leaner2, leaner3, leaner4, leaner5, leaner6, leaner7, leaner8, lonely, oculus, project1, project2, project3, project4, project5, project6, project7, project8, project9, redbull, robin1, robin2, robin3, robin4, robin5, robin6, robinExperneto, robinR, robinRent, robinUeno, robinUN, talk1, uber, varizon, waze, webbys, writing1, writing2, } from "@/public";
 
 export const projectItems = [
    {
@@ -494,5 +494,109 @@ export const awwwardsItems = [
             href: "/"
          },
       ]
+   },
+];
+
+// esperanto page content
+
+export const esperantoInterItems = [
+   {
+      id: 1,
+      img: inter1
+   },
+   {
+      id: 2,
+      img: inter2
+   },
+   {
+      id: 3,
+      img: inter3
+   },
+   {
+      id: 4,
+      img: inter4
+   },
+   {
+      id: 5,
+      img: inter5
+   },
+   {
+      id: 6,
+      img: inter6
+   },
+   {
+      id: 7,
+      img: inter7
+   },
+   {
+      id: 8,
+      img: inter8
+   },
+   {
+      id: 9,
+      img: inter9
+   },
+   {
+      id: 10,
+      img: inter10
+   },
+   {
+      id: 11,
+      img: inter11
+   },
+   {
+      id: 12,
+      img: inter12
+   },
+   {
+      id: 13,
+      img: inter13
+   },
+   {
+      id: 14,
+      img: inter14
+   },
+   {
+      id: 15,
+      img: inter15
+   },
+   {
+      id: 16,
+      img: inter16
+   },
+];
+
+export const esperantoLearnerItems = [
+   {
+      id: 1,
+      img: leaner1
+   },
+   {
+      id: 2,
+      img: leaner2
+   },
+   {
+      id: 3,
+      img: leaner3
+   },
+   {
+      id: 4,
+      img: leaner4
+   },
+   {
+      id: 5,
+      img: leaner5
+   },
+   {
+      id: 6,
+      img: leaner6
+   },
+   {
+      id: 7,
+      img: leaner7
+   },
+   {
+      id: 8,
+      img: leaner8
    },
 ];
